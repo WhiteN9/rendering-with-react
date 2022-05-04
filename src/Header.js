@@ -5,7 +5,7 @@ function Header({name,imageSrc,birthday}) {
   return (
     <header className="container">
       <div className="item">
-        <img className="image" src={imageSrc}/>
+        <img src={imageSrc} alt="small cat with blue eyes"/>
       </div>
       <div className="item">
         <h1>{name}</h1>
