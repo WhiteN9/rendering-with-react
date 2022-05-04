@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Activity";
+import Header from "./Header.js";
 import HobbyList from "./HobbyList.js";
 import ActivityList from "./ActivityList.js";
 
@@ -21,9 +21,9 @@ function App() {
   ];
   return (
     <React.Fragment>
-      <Header />
-      <HobbyList />
-      <ActivityList />
+      <Header name={name} birthday={birthday} imageSrc={imageSrc}/>
+      <HobbyList hobbies={hobbies}/>
+      <ActivityList activities={dailyActivities}/>
     </React.Fragment>
   );
 }
