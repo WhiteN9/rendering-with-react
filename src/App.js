@@ -1,4 +1,7 @@
 import React from "react";
+import Header from "./Activity";
+import HobbyList from "./HobbyList.js";
+import ActivityList from "./ActivityList.js";
 
 function App() {
   const name = "Kitty Kat";
@@ -16,7 +19,13 @@ function App() {
     { time: "7:00 pm", description: "play" },
     { time: "10:00 pm", description: "bedtime" },
   ];
-  return null;
+  return (
+    <React.Fragment>
+      <Header />
+      <HobbyList />
+      <ActivityList />
+    </React.Fragment>
+  );
 }
 
 export default App;

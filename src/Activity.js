@@ -2,7 +2,7 @@ import React from "react";
 import "./Activity.css";
 
 function Activity() {
-  return null;
+  return <p>Text</p>;;
 }
 
 export default Activity;

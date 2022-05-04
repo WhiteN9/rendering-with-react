@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 
 function Header() {
-  return null;
+  return <p>Text</p>;
 }
 
 export default Header;
